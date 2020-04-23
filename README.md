@@ -1,11 +1,8 @@
 # 5.projekt
 Our project was to create a wepage/app for teaching keyboard shortcuts.
 
-## "veebilehe screenshot"
+## "Webpage screenshot"
 
-
-Quiz test is Kuressaare regional training centre
-22.04. - 25.04.2020 School project
 
 We are team **"5.project"** :  
 **_Project manager:_**    Karl Gregor Rauniste TA-19  
