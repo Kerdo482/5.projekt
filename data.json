@@ -5,14 +5,34 @@
         "date": "NY"
     },
     "Questions": [{
-            "question": "How to save a file?",
-            "answer": "",
-            "type": "212 555-1234"
+            "question": "How to Show Command Palette?",
+            "answer": "⇧⌘P",
+            "type": "⇧⌘P"
         },
         {
-            "question": "How to save a file?1",
-            "answer": "",
-            "type": "212 555-1234"
+            "question": "How to Copy line down",
+            "answer": "⇧⌥↓",
+            "type": ""
+        },
+        {
+            "question": "How to Move line down/up",
+            "answer": "⌥↓ , ⌥↑",
+            "type": "⌥↓ , ⌥↑"
+        },
+        {
+            "question": "How to Copy line ",
+            "answer": "⌘C",
+            "type": "⌘C"
+        },
+        {
+            "question": "How to Cut line",
+            "answer": "⌘X",
+            "type": "⌘X"
+        },
+        {
+            "question": "How to open New window/instance",
+            "answer": "⇧⌘N",
+            "type": "⇧⌘N"
         }
     ]
 }
