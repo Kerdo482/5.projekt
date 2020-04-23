@@ -7,5 +7,6 @@
   <title>Quiz App</title>
 </head>
 <body>
+<p id="question"></p>
 </body>
 </html>
