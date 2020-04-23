@@ -172,8 +172,18 @@ h1 {
     background-size: cover;
 }
 
-.text-box{
+.text-box1{
     display: flex;
     justify-content: center;
     margin-top: 200px;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+
+.text-box2{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-left: 10px;
+    margin-left: 20px;
 }
