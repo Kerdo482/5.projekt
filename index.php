@@ -1,22 +1,46 @@
+<?php
+
+$fileName = './test.json';
+$content = file_get_contents($fileName);
+
+$json = json_decode($content);
+?>
+
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <script defer src="app.js"></script>
-  <title>Quiz App</title>
-  
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <script src="app.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 </head>
 <body>
-<h1>Quiz on Important Facts</h1>
-<div class="quiz-container">
-  <div id="quiz"></div>
-</div>
-<button id="previous">Previous Question</button>
-<button id="next">Next Question</button>
-<input type="text" id="log">
-<button id="submit">Submit Quiz</button>
-<div id="results"></div>
+    <h1><?php echo $json->title;?></h1>
+    <div> <h2><?php echo $json->test[0]->question;?></h2></div>
+    <input type="text" placeholder="Sõna..." id="text" />
+    <script type="text/javascript">
+            $('#text').keypress(function(event){
+                var keycode = (event.keyCode ? event.keyCode : event.which);
+                if(keycode == '13'){
+                    $('#text').change( function () {
+                        
+                        
+
+                        alert(this.value); 
+
+                        });  
+                }
+
+                event.stopPropagation();
+            });
+             
+        </script>
+    
+    <br/><br/>
+    <div id="output"></div>
+
+   
 </body>
 </html>
+
