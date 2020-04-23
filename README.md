@@ -1,5 +1,5 @@
 # 5.projekt
-Vaja luua tarkvara, millega kasutaja saab end drillida erinevatele teemadel.
+Our project was to create a wepage/app for teaching keyboard shortcuts.
 
 Webpage: 
 
