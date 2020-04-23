@@ -24,8 +24,10 @@ We are from Estonia and we are learning in Kuressaare Regional Training Centre. 
 ​
 
 ## Quiz Idea
-
-
+## What the Quiz consists of?
+Our Quiz is divided into 2 topics:
+1. For Windows Users
+2. For IOS Users
 
 ## Project design
 
