@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="style.css">
   <script defer src="app.js"></script>
   <title>Quiz App</title>
+  
 </head>
 <body>
 <h1>Quiz on Important Facts</h1>
