@@ -5,14 +5,13 @@
         "date": "NY"
     },
     "Questions": [{
-            "question": "How to Show Command Palette?",
-            "answer": "⇧⌘P",
-            "type": "⇧⌘P"
-        },
-        {
             "question": "How to Copy line down",
             "answer": "⇧⌥↓",
             "type": ""
+        }, {
+            "question": "How to Show Command Palette?",
+            "answer": "⇧⌘P",
+            "type": "⇧⌘P"
         },
         {
             "question": "How to Move line down/up",

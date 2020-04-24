@@ -3,7 +3,7 @@ fetch("./data.json")
         return resp.json();
     })
     .then(function(data) {
-        console.log(data.Questions)
+        console.log(data.Questions);
 
 
         document.addEventListener('keydown', logKey);
@@ -14,17 +14,16 @@ fetch("./data.json")
                 e = e || event; // to deal with IE
                 map[e.keyCode] = e.type == 'keydown';
                 /* insert conditional here */
-                console.log(e.key)
+                console.log(e.key);
                 if (e.ctrlKey && e.key === 'c') {
-                    console.log("success")
+                    console.log("success");
                 }
-            }
+            };
         }
+        var i = Math.floor(Math.random() * data.Questions.length);
         var output = document.getElementById('question');
         output.innerHTML += data.Questions[0].question + '<br>';
-    })
-
-
+    });
 
 const realFileBtn = Document.getElementById("real-file");
 const customBtn = Document.getElementById("custom-text");
